@@ -54,8 +54,8 @@ function jke_theme_install(req, resp) {
                           lightMode: "#000000"
                       },
                       banner: {
-                          lightMode: "#a7cfd2",
-                          darkMode: "#a7cfd2"
+                          lightMode: "#000000",
+                          darkMode: "#000000"
                       }
                   }
               }]),
