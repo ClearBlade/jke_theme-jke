@@ -4,8 +4,9 @@
  * @param {CbServer.Resp} resp
  */
 
-function {{component_prefix}}_uninstall(req, resp) {
+function jke_theme_install(req, resp) {
   const params = req.params;
-  //component uninstall behavior here, undo any steps done in the install service
+  const mfe_settings = params.mfe_settings;
+  //component install behavior here. Initialize an instance of the component for use
   resp.success('Success');
 }
